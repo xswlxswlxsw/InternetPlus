@@ -2,7 +2,7 @@
 
 page {
   padding-top: 54rpx;
-  background-color: #f6f6f6;
+  background-color: #faf9d2;
   padding-bottom: 60rpx;
 }
 

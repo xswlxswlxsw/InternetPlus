@@ -14,9 +14,9 @@
     "pages/web/index"
   ],
   "window": {
-    "backgroundColor": "#F6F6F6",
+    "backgroundColor": "#faf9d2",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarBackgroundColor": "#c5d99b",
     "navigationBarTitleText": "云开发 QuickStart",
     "navigationBarTextStyle": "black"
   },
@@ -24,26 +24,26 @@
   "style": "v2",
   "lazyCodeLoading": "requiredComponents",
   "tabBar": {
-    "color": "#A2A9B0",
+    "color": "#ffffff",
     "selectedColor": "#07C160",
-    "backgroundColor": "#ffffff",
+    "backgroundColor": "#c5d99b",
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "快速开始",
-        "iconPath": "images/icons/home.png",
+        "text": "首页",
+        "iconPath": "images/icons/03.png",
         "selectedIconPath": "images/icons/home-active.png"
       },
       {
         "pagePath": "pages/examples/index",
-        "text": "云开发示例",
-        "iconPath": "images/icons/examples.png",
+        "text": "社区",
+        "iconPath": "images/icons/02.png",
         "selectedIconPath": "images/icons/examples-active.png"
       },
       {
         "pagePath": "pages/user-center/index",
-        "text": "我",
-        "iconPath": "images/icons/usercenter.png",
+        "text": "我的",
+        "iconPath": "images/icons/01.png",
         "selectedIconPath": "images/icons/usercenter-active.png"
       }
     ]
