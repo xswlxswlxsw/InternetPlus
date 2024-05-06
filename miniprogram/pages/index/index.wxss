@@ -46,6 +46,7 @@ page {
 }
 text{
   font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
 }
 .search-box {
   display: flex;

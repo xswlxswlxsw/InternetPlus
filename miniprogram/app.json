@@ -11,13 +11,21 @@
     "pages/updateRecordSuccess/index",
     "pages/sumRecord/index",
     "pages/sumRecordResult/index",
-    "pages/web/index"
+    "pages/web/index",
+    "pages/jiuyeguihua/index",
+    "pages/yinlingxuetang/index",
+    "pages/jianlizhizuo/index",
+    "pages/jinjiqiuzhu/index",
+    "pages/jiankangyiliao/index",
+    "pages/falvyuanzhu/index",
+    "pages/huodong/index",
+    "pages/luntan/index"
   ],
   "window": {
     "backgroundColor": "#faf9d2",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#c5d99b",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTitleText": "",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",

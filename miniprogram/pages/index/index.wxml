@@ -8,29 +8,41 @@
     <view class="menu">
       <view class="background">
       <view class="menu-item">
-        <image src="../../images/icons/12.png" mode="widthFix" class="img"/>
-        <text class="text">就业规划</text>
+        <navigator url="/pages/jiuyeguihua/index">
+          <image src="../../images/icons/12.png" mode="widthFix" class="img"/>
+          <text class="text">就业规划</text>
+        </navigator>
       </view>
       <view class="menu-item">
-        <image src="../../images/icons/12.png" mode="widthFix" class="img"/>
-        <text class="text">银龄学堂</text>
+        <navigator url="/pages/yinlingxuetang/index">
+          <image src="../../images/icons/12.png" mode="widthFix" class="img"/>
+          <text class="text">银龄学堂</text>
+        </navigator>
       </view>
       </view>
       <view class="menu-item">
-        <image src="../../images/icons/12.png" mode="widthFix" class="img"/>
-        <text class="text">简历制作</text>
+        <navigator url="/pages/jianlizhizuo/index">
+          <image src="../../images/icons/12.png" mode="widthFix" class="img"/>
+          <text class="text">简历制作</text>
+        </navigator>
       </view>
       <view class="menu-item">
-        <image src="../../images/icons/12.png" mode="widthFix" class="img"/>
-        <text class="text">法律援助</text>
+        <navigator url="/pages/falvyuanzhu/index">
+          <image src="../../images/icons/12.png" mode="widthFix" class="img"/>
+          <text class="text">法律援助</text>
+        </navigator>
       </view>
       <view class="menu-item">
-        <image src="../../images/icons/12.png" mode="widthFix" class="img"/>
-        <text class="text">健康制作</text>
+        <navigator url="/pages/jiankangyiliao/index">
+          <image src="../../images/icons/12.png" mode="widthFix" class="img"/>
+          <text class="text">健康医疗</text>
+        </navigator>
       </view>
       <view class="menu-item">
-        <image src="../../images/icons/12.png" mode="widthFix" class="img"/>
-        <text class="text">紧急求助</text>
+        <navigator url="/pages/jinjiqiuzhu/index">
+          <image src="../../images/icons/12.png" mode="widthFix" class="img"/>
+          <text class="text">紧急求助</text>
+        </navigator>
       </view>
     </view>
   </view>

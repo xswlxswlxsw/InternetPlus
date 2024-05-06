@@ -7,12 +7,16 @@
   <view class='function_container'>
   <view class="menu">
       <view class="menu-item">
-        <image src="../../images/icons/15.png" mode="widthFix" class="img"/>
-        <text class="text">论坛</text>
+        <navigator url="/pages/luntan/index">
+          <image src="../../images/icons/15.png" mode="widthFix" class="img"/>
+          <text class="text">论坛</text>
+        </navigator>
       </view>
       <view class="menu-item">
-        <image src="../../images/icons/15.png" mode="widthFix" class="img"/>
-        <text class="text">活动</text>
+        <navigator url="/pages/huodong/index">
+          <image src="../../images/icons/15.png" mode="widthFix" class="img"/>
+          <text class="text">活动</text>
+        </navigator>
       </view>
   </view>  
   </view>  
