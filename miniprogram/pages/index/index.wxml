@@ -6,6 +6,7 @@
   </view>
   <view class='function_container'>
     <view class="menu">
+      <view class="background">
       <view class="menu-item">
         <image src="../../images/icons/12.png" mode="widthFix" class="img"/>
         <text class="text">就业规划</text>
@@ -13,6 +14,7 @@
       <view class="menu-item">
         <image src="../../images/icons/12.png" mode="widthFix" class="img"/>
         <text class="text">银龄学堂</text>
+      </view>
       </view>
       <view class="menu-item">
         <image src="../../images/icons/12.png" mode="widthFix" class="img"/>

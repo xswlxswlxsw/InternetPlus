@@ -53,7 +53,7 @@ flex-direction:column;
 text-align: center;
 border-radius: 15px;
 background-color: #fff;
-margin: 0 10px 10px 10px; /* 控制间距，不改变水平居中效果 */
+margin: 5px 10px 10px 10px; /* 控制间距，不改变水平居中效果 */
 }
 
 
