@@ -11,37 +11,31 @@
         <view class="username">openId: {{ openId }}</view>
       </block>
     </view>
-    <view class="settings_container">
-      <!-- <view class="setting_item">
-        <view class="left">
-          <image class="setting_icon" src="../../images/icons/setting.svg" />
-          <view class="setting_text">个人信息设置</view>
-        </view>
-        <image class="arrow_icon" src="../../images/arrow.svg" />
-      </view> -->
-      <!-- <view class="setting_item">
-        <view class="left">
-          <image class="setting_icon" src="../../images/icons/question.svg" />
-          <view class="setting_text">常见问题</view>
-        </view>
-        <image class="arrow_icon" src="../../images/arrow.svg" />
-      </view> -->
-      <view class="setting_item">
-        <view class="left">
-          <image class="setting_icon" src="../../images/icons/customer-service.svg" />
-          <!-- <view class="setting_text">联系客服</view> -->
-          <button open-type="contact" class="contact-button">
-            联系客服
-          </button>
-        </view>
-        <image class="arrow_icon" src="../../images/arrow.svg" />
+    <view class="top_bg" />
+    <view class="menu">
+      <view class="menu-item">
+        <navigator url="/pages/settings/index">
+          <image src="../../images/icons/07.png" mode="widthFix" class="img" />
+          <text class="text">设置</text>
+        </navigator>
       </view>
-      <view class="setting_item" bind:tap="gotoWxCodePage">
-        <view class="left">
-          <image class="setting_icon" src="../../images/icons/share.svg" />
-          <view class="setting_text">分享小程序</view>
-        </view>
-        <image class="arrow_icon" src="../../images/arrow.svg" />
+      <view class="menu-item">
+        <navigator url="/pages/account-management/index">
+          <image src="../../images/icons/06.png" mode="widthFix" class="img" />
+          <text class="text">账户管理</text>
+        </navigator>
+      </view>
+      <view class="menu-item">
+        <navigator url="/pages/friends/index">
+          <image src="../../images/icons/05.png" mode="widthFix" class="img" />
+          <text class="text">好友</text>
+        </navigator>
+      </view>
+      <view class="menu-item">
+        <navigator url="/pages/activity-records/index">
+          <image src="../../images/icons/04.png" mode="widthFix" class="img" />
+          <text class="text">活动记录</text>
+        </navigator>
       </view>
     </view>
   </view>

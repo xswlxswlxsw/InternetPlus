@@ -1,0 +1,37 @@
+<!--pages/setting/index.wxml-->
+<view class="container">
+  <view class="menu-item">
+    <navigator url="/pages/privacy-settings/index">
+      <image src="../../images/icons/17.png" mode="widthFix" class="img" />
+      <text class="text">隐私设置</text>
+    </navigator>
+  </view>
+  <view class="top_bg" />
+  <view class="menu-item">
+    <navigator url="/pages/notification-settings/index">
+      <image src="../../images/icons/18.png" mode="widthFix" class="img" />
+      <text class="text">通知设置</text>
+    </navigator>
+  </view>
+  <view class="top_bg" />
+  <view class="menu-item">
+    <navigator url="/pages/sound-settings/index">
+      <image src="../../images/icons/19.png" mode="widthFix" class="img" />
+      <text class="text">声音设置</text>
+    </navigator>
+  </view>
+  <view class="top_bg" />
+  <view class="menu-item">
+    <navigator url="/pages/font-settings/index">
+      <image src="../../images/icons/20.png" mode="widthFix" class="img" />
+      <text class="text">字体设置</text>
+    </navigator>
+  </view>
+  <view class="top_bg" />
+  <view class="menu-item">
+    <navigator url="/pages/contact/index">
+      <image src="../../images/icons/21.png" mode="widthFix" class="img" />
+      <text class="text">联系我们</text>
+    </navigator>
+  </view>
+</view>

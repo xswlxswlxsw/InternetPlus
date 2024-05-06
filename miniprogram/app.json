@@ -19,7 +19,16 @@
     "pages/jiankangyiliao/index",
     "pages/falvyuanzhu/index",
     "pages/huodong/index",
-    "pages/luntan/index"
+    "pages/luntan/index",
+    "pages/settings/index",
+    "pages/account-management/index",
+    "pages/friends/index",
+    "pages/activity-records/index",
+    "pages/contact/index",
+    "pages/privacy-settings/index",
+    "pages/notification-settings/index",
+    "pages/sound-settings/index",
+    "pages/font-settings/index"
   ],
   "window": {
     "backgroundColor": "#faf9d2",
