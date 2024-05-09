@@ -1,28 +1,18 @@
-/* pages/yinlingxuetang/index.wxss */
 /* pages/yinlingfeiyi/index.wxss */
 .buttons {
-  margin-top: 30px;
+margin-top: 30px;
 }
 
 .yinlingwenchuang1 {
   background-color: #c2daa3;
   border-radius: 30px;
-  font-size: 20px;
-  float: left;
+  float:left;
 }
 
 .yinlingwenchuang2 {
   background-color: #c2daa3;
   border-radius: 30px;
-  font-size: 20px;
-  float: left;
-}
-
-.yinlingwenchuang3 {
-  background-color: #c2daa3;
-  border-radius: 30px;
-  font-size: 20px;
-  float: left;
+  float: right;
 }
 
 .top_bg {

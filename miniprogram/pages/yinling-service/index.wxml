@@ -1,0 +1,27 @@
+<!--pages/yinling-service/index.wxml-->
+<view class="menu">
+  <view class="menu-item">
+    <navigator url="/pages/falvyuanzhu/index">
+      <image src="../../images/icons/04.png" mode="widthFix" class="img" />
+      <text class="text">法律援助</text>
+    </navigator>
+  </view>
+  <view class="menu-item">
+    <navigator url="/pages/health-medical/index">
+      <image src="../../images/icons/11.png" mode="widthFix" class="img" />
+      <text class="text">健康医疗</text>
+    </navigator>
+  </view>
+  <view class="menu-item">
+    <navigator url="/pages/feedback-collection/index">
+      <image src="../../images/icons/05.png" mode="widthFix" class="img" />
+      <text class="text">反馈收集</text>
+    </navigator>
+  </view>
+</view>
+<view class="line" />
+<view class="contact">
+  <text class="contact_item">联系邮箱:1246499353@qq.com</text>
+  <text class="contact_item">联系电话:18680524928</text>
+  <text class="contact_item">联系地址:广州市中山大道西55号</text>
+</view>

@@ -1,43 +1,67 @@
 <!-- pages/me/index.wxml -->
 <view class="page_container">
-  <view class="top_bg" />
+  <view class="top_bg1" />
   <view class="main_content">
     <view class="userinfo_container">
       <image class="avatar" src="../../images/icons/avatar.png" bind:tap="getOpenId" mode="widthFix" />
       <block wx:if="{{ !openId }}">
-        <view class="username" bind:tap="getOpenId">请点击登录</view>
+        <view class="username">
+          用户名称：XXX
+          <view class="top_bg2" />
+          性别：男/女/未知
+          <view class="top_bg2" />
+          账号编码：请先登录
+        </view>
       </block>
       <block wx:else>
-        <view class="username">openId: {{ openId }}</view>
+        <view class="username">
+          用户名称：{{username}}
+          <view class="top_bg2" />
+          性别：{{sex}}
+          <view class="top_bg2" />
+          账号编码：{{openId}}
+        </view>
       </block>
     </view>
-    <view class="top_bg" />
+    <view class="top_bg3" />
     <view class="menu">
       <view class="menu-item">
-        <navigator url="/pages/settings/index">
-          <image src="../../images/icons/07.png" mode="widthFix" class="img" />
-          <text class="text">设置</text>
+        <navigator url="/pages/personal-information/index">
+          <image src="../../images/icons/17.png" mode="widthFix" class="img" />
+          <text class="text">个人信息</text>
         </navigator>
       </view>
       <view class="menu-item">
-        <navigator url="/pages/account-management/index">
-          <image src="../../images/icons/06.png" mode="widthFix" class="img" />
-          <text class="text">账户管理</text>
+        <navigator url="/pages/application-records/index">
+          <image src="../../images/icons/13.png" mode="widthFix" class="img" />
+          <text class="text">应聘记录</text>
         </navigator>
       </view>
       <view class="menu-item">
         <navigator url="/pages/friends/index">
-          <image src="../../images/icons/05.png" mode="widthFix" class="img" />
+          <image src="../../images/icons/16.png" mode="widthFix" class="img" />
           <text class="text">好友</text>
         </navigator>
       </view>
       <view class="menu-item">
-        <navigator url="/pages/activity-records/index">
-          <image src="../../images/icons/04.png" mode="widthFix" class="img" />
-          <text class="text">活动记录</text>
+        <navigator url="/pages/history/index">
+          <image src="../../images/icons/15.png" mode="widthFix" class="img" />
+          <text class="text">历史浏览</text>
+        </navigator>
+      </view>
+      <view class="menu-item">
+        <navigator url="/pages/settings/index">
+          <image src="../../images/icons/12.png" mode="widthFix" class="img" />
+          <text class="text">设置</text>
+        </navigator>
+      </view>
+      <view class="menu-item">
+        <navigator url="/pages/help-customer-service/index">
+          <image src="../../images/icons/14.png" mode="widthFix" class="img" />
+          <text class="text">帮助与客服</text>
         </navigator>
       </view>
     </view>
   </view>
-  <cloud-tip-modal showUploadTipProps="{{showUploadTip}}" />
+
 </view>

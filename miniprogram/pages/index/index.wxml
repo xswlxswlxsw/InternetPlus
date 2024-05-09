@@ -15,13 +15,13 @@
         </navigator>
       </view>
       <view class="menu-item">
-        <navigator url="/pages/jianlizhizuo/index">
+        <navigator url="/pages/yinlingfeiyi/index">
           <image src="../../images/icons/08.png" mode="widthFix" class="img"/>
           <text class="text">银龄非遗</text>
         </navigator>
       </view>
       <view class="menu-item">
-        <navigator url="/pages/falvyuanzhu/index">
+        <navigator url="/pages/yinling-service/index">
         <image src="../../images/icons/06.png" mode="widthFix" class="img"/>
           <text class="text">银龄服务</text>
         </navigator>

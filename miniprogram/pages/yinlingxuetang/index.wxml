@@ -1,4 +1,30 @@
 <!--pages/yinlingxuetang/index.wxml-->
-<view class="container">
-<text>pages/yinlingxuetang/index.wxml</text>
+<image src="../../images/icons/top_image_3.png" mode="widthFix" class="top_image" />
+<view class="buttons">
+  <button class="yinlingwenchuang1" style="width:33.33%">就业咨询</button>
+  <button class="yinlingwenchuang2" style="width:33.33%">技能学习</button>
+  <button class="yinlingwenchuang3" style="width:33.33%">文旅研学</button>
+</view>
+<view class="top_bg" />
+<view class="menu">
+  <view class="menu-item">
+    <navigator url="/pages/friends/index">
+      <image src="../../images/icons/computer_class.png" mode="widthFix" class="img" />
+    </navigator>
+  </view>
+  <view class="menu-item">
+    <navigator url="/pages/history/index">
+      <image src="../../images/icons/art_class.png" mode="widthFix" class="img" />
+    </navigator>
+  </view>
+  <view class="menu-item">
+    <navigator url="/pages/settings/index">
+      <image src="../../images/icons/research-learning1.png" mode="widthFix" class="img" />
+    </navigator>
+  </view>
+  <view class="menu-item">
+    <navigator url="/pages/help-customer-service/index">
+      <image src="../../images/icons/research-learning2.png" mode="widthFix" class="img" />
+    </navigator>
+  </view>
 </view>

@@ -28,7 +28,15 @@
     "pages/privacy-settings/index",
     "pages/notification-settings/index",
     "pages/sound-settings/index",
-    "pages/font-settings/index"
+    "pages/font-settings/index",
+    "pages/yinling-service/index",
+    "pages/health-medical/index",
+    "pages/feedback-collection/index",
+    "pages/personal-information/index",
+    "pages/application-records/index",
+    "pages/history/index",
+    "pages/help-customer-service/index",
+    "pages/yinlingfeiyi/index"
   ],
   "window": {
     "backgroundColor": "#faf9d2",

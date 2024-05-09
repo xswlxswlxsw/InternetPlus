@@ -1,0 +1,61 @@
+/* pages/yinling-service/index.wxss */
+page {
+  padding-top: 54rpx; 
+  padding-bottom: 60rpx;
+  background-color: #f5f4bb;
+}
+
+.menu {
+  display: flex;
+  /*弹性布局*/
+  flex-wrap: wrap;
+  /*允许换行*/
+  width: 93%;
+  border-radius: 30px;
+  margin: 10px 10px 10px 10px;
+  background-color: #a6c89e;
+  justify-content: center;
+}
+
+.menu-item {
+  width: 40%;
+  height: 30%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* 控制间距，不改变水平居中效果 */
+}
+
+.img {
+  width: 90%;
+  /*40%的100%*/
+  height: 30%;
+  border-radius: 30px;
+}
+
+.text {
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.contact{
+  display: flex;
+  /*弹性布局*/
+  flex-wrap: wrap;
+  /*允许换行*/
+  width: 93%;
+  border-radius: 15px;
+  margin: 10px 10px 10px 10px;
+  background-color: #a6c89e;
+  justify-content: center;
+}
+
+.contact_item{
+  font-size: 18px;
+  color:#848685;
+}
+
+.line {
+  height: 120rpx;
+}
