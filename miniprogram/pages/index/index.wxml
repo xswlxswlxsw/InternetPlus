@@ -1,49 +1,30 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="search-box">
-    <input placeholder="搜索职位名称、公司" class="search-input"></input>
-    <button bindtap="handleSearch" class="search-button">搜索</button>
-  </view>
+  <image src="../../images/icons/top_image.png" mode="widthFix" class="top_image"/>
   <view class='function_container'>
-    <view class="menu">
-      <view class="background">
       <view class="menu-item">
         <navigator url="/pages/jiuyeguihua/index">
-          <image src="../../images/icons/12.png" mode="widthFix" class="img"/>
-          <text class="text">就业规划</text>
+          <image src="../../images/icons/10.png" mode="widthFix" class="img"/>
+          <view class="text">银龄招聘</view>
         </navigator>
       </view>
       <view class="menu-item">
         <navigator url="/pages/yinlingxuetang/index">
-          <image src="../../images/icons/12.png" mode="widthFix" class="img"/>
-          <text class="text">银龄学堂</text>
+          <image src="../../images/icons/09.png" mode="widthFix" class="img"/>
+          <view class="text">银龄学堂</view>
         </navigator>
-      </view>
       </view>
       <view class="menu-item">
         <navigator url="/pages/jianlizhizuo/index">
-          <image src="../../images/icons/12.png" mode="widthFix" class="img"/>
-          <text class="text">简历制作</text>
+          <image src="../../images/icons/08.png" mode="widthFix" class="img"/>
+          <text class="text">银龄非遗</text>
         </navigator>
       </view>
       <view class="menu-item">
         <navigator url="/pages/falvyuanzhu/index">
-          <image src="../../images/icons/12.png" mode="widthFix" class="img"/>
-          <text class="text">法律援助</text>
-        </navigator>
-      </view>
-      <view class="menu-item">
-        <navigator url="/pages/jiankangyiliao/index">
-          <image src="../../images/icons/12.png" mode="widthFix" class="img"/>
-          <text class="text">健康医疗</text>
-        </navigator>
-      </view>
-      <view class="menu-item">
-        <navigator url="/pages/jinjiqiuzhu/index">
-          <image src="../../images/icons/12.png" mode="widthFix" class="img"/>
-          <text class="text">紧急求助</text>
+        <image src="../../images/icons/06.png" mode="widthFix" class="img"/>
+          <view class="text">银龄服务</view>
         </navigator>
       </view>
     </view>
-  </view>
 </view>
