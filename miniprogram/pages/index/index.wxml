@@ -5,13 +5,13 @@
       <view class="menu-item">
         <navigator url="/pages/jiuyeguihua/index">
           <image src="../../images/icons/10.png" mode="widthFix" class="img"/>
-          <view class="text">银龄招聘</view>
+          <text class="text">银龄招聘</text>
         </navigator>
       </view>
       <view class="menu-item">
         <navigator url="/pages/yinlingxuetang/index">
           <image src="../../images/icons/09.png" mode="widthFix" class="img"/>
-          <view class="text">银龄学堂</view>
+          <text class="text">银龄学堂</text>
         </navigator>
       </view>
       <view class="menu-item">
@@ -23,7 +23,7 @@
       <view class="menu-item">
         <navigator url="/pages/falvyuanzhu/index">
         <image src="../../images/icons/06.png" mode="widthFix" class="img"/>
-          <view class="text">银龄服务</view>
+          <text class="text">银龄服务</text>
         </navigator>
       </view>
     </view>
