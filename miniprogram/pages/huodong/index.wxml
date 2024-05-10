@@ -1,4 +1,20 @@
 <!--pages/huodong/index.wxml-->
 <view class="container">
-<text>pages/huodong/index.wxml</text>
+  <view class="menu">
+  <view class="menu-item">
+    <navigator url="/pages/friends/index">
+      <image src="../../images/icons/资源 1.png" mode="widthFix" class="img" />
+    </navigator>
+  </view>
+  <view class="menu-item">
+    <navigator url="/pages/history/index">
+      <image src="../../images/icons/资源 2.png" mode="widthFix" class="img" />
+    </navigator>
+  </view>
+  <view class="menu-item">
+    <navigator url="/pages/settings/index">
+      <image src="../../images/icons/资讯 3.png" mode="widthFix" class="img" />
+    </navigator>
+  </view>
+</view>
 </view>
