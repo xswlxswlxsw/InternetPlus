@@ -58,11 +58,13 @@ margin: 5px 10px 10px 10px; /* 控制间距，不改变水平居中效果 */
 
 
 .img{
-width:100%;   /*25%的100%*/
-height:30%;
+width:100%;   
 }
+
 text{
-  font-size: 20px;
+  font-size: 18px;
+  bottom: 20px;
+  position: relative;
 }
 
 .search-box {
@@ -70,7 +72,6 @@ text{
   align-items: center;
   justify-content: space-between;
   padding: 10px;
-  
   border-radius: 15px;
   background-color: #fff;
 }
