@@ -56,20 +56,20 @@
       {
         "pagePath": "pages/index/index",
         "text": "首页",
-        "iconPath": "images/icons/03.png",
-        "selectedIconPath": "images/icons/03.png"
+        "iconPath": "images/icons/首页.png",
+        "selectedIconPath": "images/icons/首页选中.png"
       },
       {
         "pagePath": "pages/examples/index",
         "text": "社区",
-        "iconPath": "images/icons/02.png",
-        "selectedIconPath": "images/icons/02.png"
+        "iconPath": "images/icons/社区.png",
+        "selectedIconPath": "images/icons/社区选中.png"
       },
       {
         "pagePath": "pages/user-center/index",
         "text": "我的",
-        "iconPath": "images/icons/01.png",
-        "selectedIconPath": "images/icons/01.png"
+        "iconPath": "images/icons/我的.png",
+        "selectedIconPath": "images/icons/我的选中.png"
       }
     ]
   }
