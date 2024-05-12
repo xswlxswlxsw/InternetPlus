@@ -1,0 +1,41 @@
+/* pages/yinling-zhaopin/index.wxss */
+.menu {
+  display: flex;
+  /*弹性布局*/
+  flex-wrap: wrap;
+  /*允许换行*/
+  width: 90%;
+  border-radius: 30px;
+  margin: 20px 10px 10px 15px;
+  background-color: #c3dba4;
+  justify-content: center;
+}
+
+.menu-item {
+  width: 45%;
+  height: 30%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* 控制间距，不改变水平居中效果 */
+}
+
+.img {
+  width: 80%;
+  height: 30%;
+  border-radius: 30px;
+}
+
+.top_bg1 {
+  height: 120rpx;
+}
+.top_bg2 {
+  height: 30rpx;
+}
+
+.img_button{
+  width: 90%;
+  border-radius: 30px;
+  margin-left: 15px;
+}

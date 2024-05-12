@@ -1,0 +1,16 @@
+<!--pages/Collaborate/index.wxml-->
+<image src="../../images/icons/collaborate_top_image.png" mode="widthFix" />
+<view class="top_bg1" />
+<view class="menu-item">
+  <navigator url="/pages/personal-information/index">
+    <image src="../../images/icons/企业合作图标.png" mode="widthFix" class="img" />
+    <text class="text">企业合作</text>
+  </navigator>
+</view>
+<view class="top_bg2" />
+<view class="menu-item">
+  <navigator url="/pages/personal-information/index">
+    <image src="../../images/icons/广告合作图标.png" mode="widthFix" class="img" />
+    <text class="text">广告合作</text>
+  </navigator>
+</view>

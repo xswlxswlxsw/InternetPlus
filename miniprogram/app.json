@@ -16,7 +16,6 @@
     "pages/yinlingxuetang/index",
     "pages/jianlizhizuo/index",
     "pages/jinjiqiuzhu/index",
-    "pages/jiankangyiliao/index",
     "pages/falvyuanzhu/index",
     "pages/huodong/index",
     "pages/luntan/index",
@@ -36,7 +35,10 @@
     "pages/application-records/index",
     "pages/history/index",
     "pages/help-customer-service/index",
-    "pages/yinlingfeiyi/index"
+    "pages/yinlingfeiyi/index",
+    "pages/yinling-zhaopin/index",
+    "pages/work-files/index",
+    "pages/collaborate/index"
   ],
   "window": {
     "backgroundColor": "#faf9d2",

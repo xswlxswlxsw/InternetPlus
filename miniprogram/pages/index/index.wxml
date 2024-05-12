@@ -3,7 +3,7 @@
   <image src="../../images/icons/top_image.png" mode="widthFix" class="top_image"/>
   <view class='function_container'>
       <view class="menu-item">
-        <navigator url="/pages/jiuyeguihua/index">
+        <navigator url="/pages/yinling-zhaopin/index">
           <image src="../../images/icons/10.png" mode="widthFix" class="img"/>
           <text class="text">银龄招聘</text>
         </navigator>

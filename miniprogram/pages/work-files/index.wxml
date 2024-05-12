@@ -1,0 +1,24 @@
+<!--pages/work-files/index.wxml-->
+<image src="../../images/icons/workfiles_top_image.png" mode="widthFix" class="top_image" />
+<view class="menu">
+  <view class="menu-item">
+    <navigator url="/pages/personal-information/index">
+      <image src="../../images/icons/图标 1.png" mode="widthFix" class="img" />
+    </navigator>
+  </view>
+  <view class="menu-item">
+    <navigator url="/pages/personal-information/index">
+      <image src="../../images/icons/图标 2.png" mode="widthFix" class="img" />
+    </navigator>
+  </view>
+  <view class="menu-item">
+    <navigator url="/pages/personal-information/index">
+      <image src="../../images/icons/图标 3.png" mode="widthFix" class="img" />
+    </navigator>
+  </view>
+  <view class="menu-item">
+    <navigator url="/pages/personal-information/index">
+      <image src="../../images/icons/图标 4.png" mode="widthFix" class="img" />
+    </navigator>
+  </view>
+</view>

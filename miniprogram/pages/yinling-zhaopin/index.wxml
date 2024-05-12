@@ -1,0 +1,41 @@
+<!--pages/yinling-zhaopin/index.wxml-->
+<view class="menu">
+  <view class="menu-item">
+    <navigator url="/pages/work-files/index">
+      <image src="../../images/icons/工作档案图标.png" mode="widthFix" class="img" />
+    </navigator>
+  </view>
+  <view class="menu-item">
+    <navigator url="/pages/collaborate/index">
+      <image src="../../images/icons/合作图标.png" mode="widthFix" class="img" />
+    </navigator>
+  </view>
+</view>
+<view class="top_bg1" />
+<navigator url="/pages/personal-information/index">
+  <image src="../../images/icons/厨师.png" mode="widthFix" class="img_button" />
+</navigator>
+<view class="top_bg2" />
+<navigator url="/pages/personal-information/index">
+  <image src="../../images/icons/家政.png" mode="widthFix" class="img_button" />
+</navigator>
+<view class="top_bg2" />
+<navigator url="/pages/personal-information/index">
+  <image src="../../images/icons/保安.png" mode="widthFix" class="img_button" />
+</navigator>
+<view class="top_bg2" />
+<navigator url="/pages/personal-information/index">
+  <image src="../../images/icons/教师.png" mode="widthFix" class="img_button" />
+</navigator>
+<view class="top_bg2" />
+<navigator url="/pages/personal-information/index">
+  <image src="../../images/icons/保洁员.png" mode="widthFix" class="img_button" />
+</navigator>
+<view class="top_bg2" />
+<navigator url="/pages/personal-information/index">
+  <image src="../../images/icons/绿化管理员.png" mode="widthFix" class="img_button" />
+</navigator>
+<view class="top_bg2" />
+<navigator url="/pages/personal-information/index">
+  <image src="../../images/icons/餐厅服务员.png" mode="widthFix" class="img_button" />
+</navigator>

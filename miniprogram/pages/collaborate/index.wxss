@@ -1,0 +1,38 @@
+/* pages/Collaborate/index.wxss */
+.menu-item {
+  width: 90%;
+  height: 68px;
+  display: flex;
+  flex-direction: row;
+  background-color: #c3dba4;
+  margin-bottom: 5px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin-left: 15px;
+}
+
+.img {
+  width: 20%;
+  left: 5%;
+  top: 8%;
+  position: absolute;
+  border-radius: 15px;
+}
+
+.text {
+  font-size: 28px;
+  font-family: 'Courier New', Courier, monospace;
+  position: absolute;
+  margin: -15px 0 0 10px;
+  left: 100px;
+}
+
+.top_bg1 {
+  height: 100rpx;
+}
+
+.top_bg2 {
+  height: 50rpx;
+}
