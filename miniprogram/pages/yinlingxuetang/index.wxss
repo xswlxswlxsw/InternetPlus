@@ -26,7 +26,7 @@
 }
 
 .top_bg {
-  height: 200rpx;
+  height: 180rpx;
 }
 
 .menu {
@@ -41,7 +41,7 @@
 }
 
 .menu-item {
-  width: 40%;
+  width: 45%;
   height: 30%;
   box-sizing: border-box;
   display: flex;
@@ -51,7 +51,7 @@
 }
 
 .img {
-  width: 100%;
-  /*40%的100%*/
+  width: 85%;
   height: 30%;
+  margin-top: 20px;
 }
