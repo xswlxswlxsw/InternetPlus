@@ -47,3 +47,7 @@ page {
   margin: -15px;
   left:100px;
 }
+
+.top_bg{
+  height: 75px;
+}

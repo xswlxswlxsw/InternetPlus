@@ -24,3 +24,4 @@
     <image src="../../images/icons/资源 5.png" mode="widthFix" class="img"/>
   </view>
 </view>
+<view class="top_bg"/>

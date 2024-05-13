@@ -91,3 +91,7 @@ text{
   border-radius: 10px;
   width:60px !important;
 }
+
+.top_bg{
+  height: 75px;
+}

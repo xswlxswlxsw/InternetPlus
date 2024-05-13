@@ -51,6 +51,7 @@
   "style": "v2",
   "lazyCodeLoading": "requiredComponents",
   "tabBar": {
+    "custom": true,
     "color": "#ffffff",
     "selectedColor": "#07C160",
     "backgroundColor": "#c5d99b",
@@ -59,19 +60,19 @@
         "pagePath": "pages/index/index",
         "text": "首页",
         "iconPath": "images/icons/首页.png",
-        "selectedIconPath": "images/icons/首页选中.png"
+        "selectedIconPath": "images/icons/首页.png"
       },
       {
         "pagePath": "pages/examples/index",
         "text": "社区",
         "iconPath": "images/icons/社区.png",
-        "selectedIconPath": "images/icons/社区选中.png"
+        "selectedIconPath": "images/icons/社区.png"
       },
       {
         "pagePath": "pages/user-center/index",
         "text": "我的",
         "iconPath": "images/icons/我的.png",
-        "selectedIconPath": "images/icons/我的选中.png"
+        "selectedIconPath": "images/icons/我的.png"
       }
     ]
   }
