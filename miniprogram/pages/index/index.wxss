@@ -44,7 +44,7 @@ page {
   font-size: 28px;
   font-family: 'Courier New', Courier, monospace;
   position: absolute;
-  margin: -15px;
+  margin: -20px 0 0 30px;
   left:100px;
 }
 

@@ -2,7 +2,7 @@ Component({
   data: {
     selected: 0,
     color: "#c5d99b",
-    selectedColor: "#07C160",
+    selectedColor: "#6c7c5c",
     list: [{
       "pagePath": "/pages/index/index",
       "text": "首页",

@@ -1,5 +1,9 @@
 /* pages/yinlingxuetang/index.wxss */
-/* pages/yinlingfeiyi/index.wxss */
+
+.top_image {
+  width: 100%;
+}
+
 .buttons {
   margin-top: 30px;
 }

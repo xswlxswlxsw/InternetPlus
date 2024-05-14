@@ -3,7 +3,7 @@
   <view class="top_bg1" />
   <view class="main_content">
     <view class="userinfo_container">
-      <image class="avatar" src="../../images/icons/avatar.png" bind:tap="getOpenId" mode="widthFix" />
+      <image class="avatar" src="cloud://internet-6gjgwlew4870f7f2.696e-internet-6gjgwlew4870f7f2-1325840703/icons/avatar.png" bind:tap="getOpenId" mode="widthFix" />
       <block wx:if="{{ !openId }}">
         <view class="username">
           用户名称：XXX

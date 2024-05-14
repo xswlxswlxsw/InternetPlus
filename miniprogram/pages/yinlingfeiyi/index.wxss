@@ -1,12 +1,16 @@
 /* pages/yinlingfeiyi/index.wxss */
+.top_image {
+  width: 100%;
+}
+
 .buttons {
-margin-top: 30px;
+  margin-top: 30px;
 }
 
 .yinlingwenchuang1 {
   background-color: #c2daa3;
   border-radius: 30px;
-  float:left;
+  float: left;
 }
 
 .yinlingwenchuang2 {
