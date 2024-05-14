@@ -44,8 +44,7 @@ page {
 }
 
 .menu-item{
-width: 40%;      /*一行排四个icon，每个icon占比25%*/
-height: 30%;
+width: 40%;
 box-sizing: border-box;
 display:flex;
 justify-content:center;
@@ -61,10 +60,10 @@ margin: 5px 10px 10px 10px; /* 控制间距，不改变水平居中效果 */
 width:100%;   
 }
 
-text{
+.text{
   font-size: 18px;
-  bottom: 20px;
   position: relative;
+  margin-top: 10px;
 }
 
 .search-box {
