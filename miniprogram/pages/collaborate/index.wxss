@@ -23,6 +23,7 @@
   top: 2%;
   position: absolute;
   border-radius: 15px;
+  background-color: #ffffff;
 }
 
 .text {

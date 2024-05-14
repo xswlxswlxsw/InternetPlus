@@ -22,7 +22,7 @@ page {
   width: 64rpx;
   /* background-color: #e5e5e5; */
   transform: scale(1.8);
-  margin: 20px 0 0 20px;
+  margin: 15px 0 0 20px;
 }
 
 .text {

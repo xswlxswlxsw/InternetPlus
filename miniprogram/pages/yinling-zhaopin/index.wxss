@@ -23,10 +23,15 @@
 }
 
 .img {
-  width: 80%;
+  width: 90%;
   height: 30%;
   border-radius: 30px;
   background-color: #fff;
+  margin-top: 10px;
+}
+
+.txt{
+  font-size: 28px;
 }
 
 .top_bg2 {
@@ -47,7 +52,7 @@
   height:80px;
   position:absolute;
   left:60%;
-  top:20%;
+  top:30%;
 }
 
 .buttonView2 {
@@ -58,7 +63,7 @@
   height:80px;
   position:absolute;
   left:60%;
-  top:36.5%;
+  top:46.5%;
 }
 
 .buttonView3 {
@@ -69,7 +74,7 @@
   height:80px;
   position:absolute;
   left:60%;
-  top:53%;
+  top:63%;
 }
 button {
   display: flex;

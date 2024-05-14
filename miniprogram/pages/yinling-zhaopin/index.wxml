@@ -3,11 +3,13 @@
   <view class="menu-item">
     <navigator url="/pages/work-files/index">
       <image src="/images/icons/工作档案.png" mode="widthFix" class="img" />
+      <text class="txt">工作档案</text>
     </navigator>
   </view>
   <view class="menu-item">
     <navigator url="/pages/collaborate/index">
       <image src="/images/icons/与我合作.png" mode="widthFix" class="img" />
+      <text class="txt">与我合作</text>
     </navigator>
   </view>
 </view>
