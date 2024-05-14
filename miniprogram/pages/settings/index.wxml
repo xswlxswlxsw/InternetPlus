@@ -2,35 +2,35 @@
 <view class="container">
   <view class="menu-item">
     <navigator url="/pages/privacy-settings/index">
-      <image src="cloud://internet-6gjgwlew4870f7f2.696e-internet-6gjgwlew4870f7f2-1325840703/icons/17.png" mode="widthFix" class="img" />
+      <image src="/images/icons/隐私设置.png" mode="widthFix" class="img" />
       <text class="text">隐私设置</text>
     </navigator>
   </view>
   <view class="top_bg" />
   <view class="menu-item">
     <navigator url="/pages/notification-settings/index">
-      <image src="cloud://internet-6gjgwlew4870f7f2.696e-internet-6gjgwlew4870f7f2-1325840703/icons/18.png" mode="widthFix" class="img" />
+      <image src="/images/icons/通知.png" mode="widthFix" class="img" />
       <text class="text">通知设置</text>
     </navigator>
   </view>
   <view class="top_bg" />
   <view class="menu-item">
     <navigator url="/pages/sound-settings/index">
-      <image src="cloud://internet-6gjgwlew4870f7f2.696e-internet-6gjgwlew4870f7f2-1325840703/icons/19.png" mode="widthFix" class="img" />
+      <image src="/images/icons/声音.png" mode="widthFix" class="img" />
       <text class="text">声音设置</text>
     </navigator>
   </view>
   <view class="top_bg" />
   <view class="menu-item">
     <navigator url="/pages/font-settings/index">
-      <image src="cloud://internet-6gjgwlew4870f7f2.696e-internet-6gjgwlew4870f7f2-1325840703/icons/20.png" mode="widthFix" class="img" />
+      <image src="/images/icons/字体.png" mode="widthFix" class="img" />
       <text class="text">字体设置</text>
     </navigator>
   </view>
   <view class="top_bg" />
   <view class="menu-item">
     <navigator url="/pages/contact/index">
-      <image src="cloud://internet-6gjgwlew4870f7f2.696e-internet-6gjgwlew4870f7f2-1325840703/icons/21.png" mode="widthFix" class="img" />
+      <image src="/images/icons/联系我们.png" mode="widthFix" class="img" />
       <text class="text">联系我们</text>
     </navigator>
   </view>

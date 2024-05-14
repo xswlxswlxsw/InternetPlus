@@ -13,20 +13,22 @@ page {
 
 .menu-item {
   width: 80%;
+  height: 64px;
   background-color: #fff;
   border-radius: 30px;
 }
 
 .img {
-  width: 128rpx;
-  height: 128rpx;
+  width: 64rpx;
   /* background-color: #e5e5e5; */
   transform: scale(1.8);
+  margin: 20px 0 0 20px;
 }
 
 .text {
   color: #333;
-  font-size: 64rpx;
+  font-size: 72rpx;
+  margin: 0 0 0 50px;
 }
 
 .top_bg {
