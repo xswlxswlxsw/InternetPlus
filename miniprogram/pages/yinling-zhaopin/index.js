@@ -28,10 +28,10 @@ Page({
     console.log('音频2暂停播放');
   },
   onPlay3: function () {
-    console.log('音频2开始播放');
+    console.log('音频3开始播放');
   },
   onPause3: function () {
-    console.log('音频2暂停播放');
+    console.log('音频3暂停播放');
   },
   togglePlay1: function () {
     if (!this.data.audioContext1) {
