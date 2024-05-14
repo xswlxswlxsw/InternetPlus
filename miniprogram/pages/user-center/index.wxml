@@ -3,7 +3,7 @@
   <view class="top_bg1" />
   <view class="main_content">
     <view class="userinfo_container">
-      <image class="avatar" src="cloud://internet-6gjgwlew4870f7f2.696e-internet-6gjgwlew4870f7f2-1325840703/icons/avatar.png" bind:tap="getOpenId" mode="widthFix" />
+      <image class="avatar" src="/images/avatar.png" bind:tap="getOpenId" mode="widthFix" />
       <block wx:if="{{ !openId }}">
         <view class="username">
           用户名称：XXX
@@ -27,37 +27,37 @@
     <view class="menu">
       <view class="menu-item">
         <navigator url="/pages/personal-information/index">
-          <image src="cloud://internet-6gjgwlew4870f7f2.696e-internet-6gjgwlew4870f7f2-1325840703/icons/17.png" mode="widthFix" class="img" />
+          <image src="/images/icons/个人信息.png" mode="widthFix" class="img" />
           <text class="text">个人信息</text>
         </navigator>
       </view>
       <view class="menu-item">
         <navigator url="/pages/application-records/index">
-          <image src="cloud://internet-6gjgwlew4870f7f2.696e-internet-6gjgwlew4870f7f2-1325840703/icons/13.png" mode="widthFix" class="img" />
+          <image src="/images/icons/应聘记录.png" mode="widthFix" class="img" />
           <text class="text">应聘记录</text>
         </navigator>
       </view>
       <view class="menu-item">
         <navigator url="/pages/friends/index">
-          <image src="cloud://internet-6gjgwlew4870f7f2.696e-internet-6gjgwlew4870f7f2-1325840703/icons/16.png" mode="widthFix" class="img" />
+          <image src="/images/icons/好友.png" mode="widthFix" class="img" />
           <text class="text">好友</text>
         </navigator>
       </view>
       <view class="menu-item">
         <navigator url="/pages/history/index">
-          <image src="cloud://internet-6gjgwlew4870f7f2.696e-internet-6gjgwlew4870f7f2-1325840703/icons/15.png" mode="widthFix" class="img" />
+          <image src="/images/icons/历史浏览.png" mode="widthFix" class="img" />
           <text class="text">历史浏览</text>
         </navigator>
       </view>
       <view class="menu-item">
         <navigator url="/pages/settings/index">
-          <image src="cloud://internet-6gjgwlew4870f7f2.696e-internet-6gjgwlew4870f7f2-1325840703/icons/12.png" mode="widthFix" class="img" />
+          <image src="/images/icons/设置.png" mode="widthFix" class="img" />
           <text class="text">设置</text>
         </navigator>
       </view>
       <view class="menu-item">
         <navigator url="/pages/help-customer-service/index">
-          <image src="cloud://internet-6gjgwlew4870f7f2.696e-internet-6gjgwlew4870f7f2-1325840703/icons/14.png" mode="widthFix" class="img" />
+          <image src="/images/icons/帮助与客服.png" mode="widthFix" class="img" />
           <text class="text">帮助与客服</text>
         </navigator>
       </view>
