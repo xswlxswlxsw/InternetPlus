@@ -46,8 +46,9 @@
   height:80px;
   position:absolute;
   left:60%;
-  top:25%;
+  top:20%;
 }
+
 .buttonView2 {
   display: flex;
   justify-content: center;
@@ -56,17 +57,18 @@
   height:80px;
   position:absolute;
   left:60%;
-  top:46%;
+  top:36.5%;
 }
+
 .buttonView3 {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
   width:80px;
   height:80px;
   position:absolute;
   left:60%;
-  top:67%;
+  top:53%;
 }
 button {
   display: flex;

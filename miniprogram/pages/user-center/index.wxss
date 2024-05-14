@@ -18,6 +18,7 @@
 
 .top_bg4{
   height: 225px;
+  background-color: #faf9d2;
 }
 
 .main_content {
