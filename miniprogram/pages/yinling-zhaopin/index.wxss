@@ -26,6 +26,7 @@
   width: 80%;
   height: 30%;
   border-radius: 30px;
+  background-color: #fff;
 }
 
 .top_bg2 {
