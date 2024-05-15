@@ -1,30 +1,39 @@
 <!--pages/yinlingxuetang/index.wxml-->
-<image src="cloud://internet-6gjgwlew4870f7f2.696e-internet-6gjgwlew4870f7f2-1325840703/icons/top_image_3.png" mode="widthFix" class="top_image" />
-<view class="buttons">
-  <button class="yinlingwenchuang1" style="width:33.33%">就业咨询</button>
-  <button class="yinlingwenchuang2" style="width:33.33%">技能学习</button>
-  <button class="yinlingwenchuang3" style="width:33.33%">文旅研学</button>
-</view>
-<view class="top_bg" />
-<view class="menu">
-  <view class="menu-item">
-    <navigator url="/pages/friends/index">
-      <image src="cloud://internet-6gjgwlew4870f7f2.696e-internet-6gjgwlew4870f7f2-1325840703/icons/computer_class.png" mode="widthFix" class="img" />
-    </navigator>
+<view class="page_container">
+  <image src="cloud://internet-6gjgwlew4870f7f2.696e-internet-6gjgwlew4870f7f2-1325840703/icons/top_image_3.png" mode="widthFix" class="top_image" />
+
+  <view class="search-box">
+    <input placeholder="搜索名称、关键词" class="search-input"></input>
+    <button bindtap="handleSearch" class="search-button">搜索</button>
   </view>
-  <view class="menu-item">
-    <navigator url="/pages/history/index">
-      <image src="cloud://internet-6gjgwlew4870f7f2.696e-internet-6gjgwlew4870f7f2-1325840703/icons/art_class.png" mode="widthFix" class="img" />
-    </navigator>
+
+  <view class="buttons">
+    <button class="yinlingwenchuang1" style="width:33.33%">就业咨询</button>
+    <button class="yinlingwenchuang2" style="width:33.33%">技能学习</button>
+    <button class="yinlingwenchuang3" style="width:33.33%">文旅研学</button>
   </view>
-  <view class="menu-item">
-    <navigator url="/pages/settings/index">
-      <image src="cloud://internet-6gjgwlew4870f7f2.696e-internet-6gjgwlew4870f7f2-1325840703/icons/research-learning1.png" mode="widthFix" class="img" />
-    </navigator>
+  <view class="top_bg" />
+  <view class="menu">
+    <view class="menu-item">
+      <navigator url="/pages/friends/index">
+        <image src="cloud://internet-6gjgwlew4870f7f2.696e-internet-6gjgwlew4870f7f2-1325840703/icons/computer_class.png" mode="widthFix" class="img" />
+      </navigator>
+    </view>
+    <view class="menu-item">
+      <navigator url="/pages/history/index">
+        <image src="cloud://internet-6gjgwlew4870f7f2.696e-internet-6gjgwlew4870f7f2-1325840703/icons/art_class.png" mode="widthFix" class="img" />
+      </navigator>
+    </view>
+    <view class="menu-item">
+      <navigator url="/pages/settings/index">
+        <image src="cloud://internet-6gjgwlew4870f7f2.696e-internet-6gjgwlew4870f7f2-1325840703/icons/research-learning1.png" mode="widthFix" class="img" />
+      </navigator>
+    </view>
+    <view class="menu-item">
+      <navigator url="/pages/help-customer-service/index">
+        <image src="cloud://internet-6gjgwlew4870f7f2.696e-internet-6gjgwlew4870f7f2-1325840703/icons/research-learning2.png" mode="widthFix" class="img" />
+      </navigator>
+    </view>
   </view>
-  <view class="menu-item">
-    <navigator url="/pages/help-customer-service/index">
-      <image src="cloud://internet-6gjgwlew4870f7f2.696e-internet-6gjgwlew4870f7f2-1325840703/icons/research-learning2.png" mode="widthFix" class="img" />
-    </navigator>
-  </view>
+  <view style="height:50px; background-color: #faf9d2;"/>
 </view>

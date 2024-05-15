@@ -1,11 +1,37 @@
 /* pages/yinlingxuetang/index.wxss */
+.page_container {
+  background-color: #faf9d2;
+}
+
+.search-box {
+  width: 80%;
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.search-input {
+  height: 30px;
+  padding: 0 10px;
+}
+
+.search-button {
+  height: 30px;
+  padding: 3px 10px;
+  background-color: #c5d99b;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  width: 60px !important;
+}
 
 .top_image {
   width: 100%;
-}
-
-.buttons {
-  margin-top: 30px;
+  border-radius: 15px;
 }
 
 .yinlingwenchuang1 {
@@ -58,4 +84,5 @@
   width: 85%;
   height: 30%;
   margin-top: 20px;
+  border-radius: 15px;
 }
