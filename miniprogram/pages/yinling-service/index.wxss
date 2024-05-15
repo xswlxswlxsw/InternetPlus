@@ -2,7 +2,7 @@
 page {
   padding-top: 54rpx; 
   padding-bottom: 60rpx;
-  background-color: #f5f4bb;
+  background-color: #faf9d2;
 }
 
 .menu {

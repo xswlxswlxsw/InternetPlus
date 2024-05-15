@@ -1,4 +1,9 @@
 /* pages/work-files/index.wxss */
+.page_container {
+  background-color: #faf9d2;
+  height: 100vh;
+}
+
 .top_image {
   width: 90%;
   margin: 15px;
