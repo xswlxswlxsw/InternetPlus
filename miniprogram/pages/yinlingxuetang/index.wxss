@@ -34,29 +34,39 @@
   border-radius: 15px;
 }
 
+.buttons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 15px;
+  width: 90%;
+  margin: 0px 5% 0px 5%;
+}
+
 .yinlingwenchuang1 {
   background-color: #c2daa3;
   border-radius: 30px;
-  font-size: 20px;
+  font-size: 18px;
   float: left;
 }
 
 .yinlingwenchuang2 {
   background-color: #c2daa3;
   border-radius: 30px;
-  font-size: 20px;
+  font-size: 18px;
   float: left;
 }
 
 .yinlingwenchuang3 {
   background-color: #c2daa3;
   border-radius: 30px;
-  font-size: 20px;
+  font-size: 18px;
   float: left;
 }
 
 .top_bg {
-  height: 180rpx;
+  height: 130rpx;
 }
 
 .menu {

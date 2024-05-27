@@ -33,7 +33,7 @@ page {
   margin-top: 10px;
   border-radius: 15px;
   background-color: #fff;
-  margin-bottom: 25%;
+  margin-bottom: 30%;
 }
 
 .menu3 {
