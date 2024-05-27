@@ -33,7 +33,8 @@
     "pages/yinling-zhaopin/index",
     "pages/work-files/index",
     "pages/collaborate/index",
-    "components/myCodeModal/index"
+    "components/myCodeModal/index",
+    "pages/yinlingjiuye/index"
   ],
   "window": {
     "backgroundColor": "#faf9d2",

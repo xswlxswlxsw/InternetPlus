@@ -17,7 +17,7 @@
         </navigator>
       </view>
       <view class="menu-item">
-        <navigator url="/pages/yinlingfeiyi/index">
+        <navigator url="/pages/yinlingjiuye/index">
           <image src="/images/icons/银龄就业.png" mode="widthFix" class="img"/>
           <text class="text">银领就业</text>
         </navigator>

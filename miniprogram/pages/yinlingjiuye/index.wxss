@@ -1,6 +1,7 @@
-/* pages/yinlingfeiyi/index.wxss */
+/* pages/yinling-zhaopin/index.wxss */
 .page_container {
   background-color: #faf9d2;
+  font-family: PingFang SC;
 }
 
 .menu {
@@ -8,15 +9,15 @@
   /*弹性布局*/
   flex-wrap: wrap;
   /*允许换行*/
-  width: 97%;
-  border-radius: 20px;
-  margin: 20px 10px 10px 5px;
+  width: 90%;
+  border-radius: 30px;
+  margin: 20px 10px 10px 15px;
   background-color: #c3dba4;
   justify-content: center;
 }
 
 .menu-item {
-  width: 33%;
+  width: 45%;
   height: 30%;
   box-sizing: border-box;
   display: flex;
@@ -34,28 +35,22 @@
 }
 
 .txt {
-  font-size: 18px;
+  font-size: 28px;
 }
 
 .top_bg2 {
   height: 30rpx;
 }
 
-.img_button {
-  width: 90%;
-  border-radius: 30px;
-  margin-left: 15px;
-}
-
 .search-box {
   width: 80%;
-  margin: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px;
   border-radius: 15px;
   background-color: #fff;
+  margin: 20px;
 }
 
 .search-input {
@@ -71,4 +66,55 @@
   border: none;
   border-radius: 10px;
   width: 60px !important;
+}
+
+.img_button {
+  width: 90%;
+  border-radius: 30px;
+  margin-left: 15px;
+}
+
+.buttonView1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 60%;
+  top: 40%;
+}
+
+.buttonView2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 60%;
+  top: 56.5%;
+}
+
+.buttonView3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 60%;
+  top: 73%;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+
+.play {
+  width: 30px;
 }
